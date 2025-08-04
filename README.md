@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Andrilee88/BMI-Calculator)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Andrilee88/BMI-Calculator)
+- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://bmi-calculator-frontmentor.netlify.app/))
 
 
 ### Built with

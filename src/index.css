@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./assets/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+    --color-gray-5500: #5E6E85;
+    --color-gray-3300: #ACC1DE;
+    --color-blue-9900: #253347;
+    --color-blue-5500: #345FF6;
+    --color-blue-3300: #B3D3F1;
+    --color-blue-1100: #E1E7FE;
+    --color-gradient-1: #D6FCFE;
+    --color-gradient-2: #D6E6FE;
+    --text-64: 4rem;
+    --text-32: 2rem;
+    --tracking-1: 0.05em
+
+}
+
+@layer components {
+    .tp-1 {
+        @apply font-inter font-semibold text-64 -tracking-1 leading-[1.1]
+    }
+
+    .tp-2 {
+        @apply font-inter font-semibold text-5xl -tracking-1 leading-[1.1]
+    }
+
+    .tp-3 {
+        @apply font-inter font-semibold text-32 -tracking-1 leading-[1.1]
+    }
+
+    .tp-4 {
+        @apply font-inter font-semibold text-2xl -tracking-1 leading-[1.1]
+    }
+
+    .tp-5 {
+        @apply font-inter font-semibold text-xl -tracking-1 leading-[1.2]
+    }
+
+    .tp-6 {
+        @apply font-inter text-base leading-[1.5]
+    }
+
+    .tp-6-sb {
+        @apply font-inter font-semibold text-base leading-[1.5]
+    }
+
+    .tp-7 {
+        @apply font-inter text-sm leading-[1.5]
+    }
+
+    .tp-7-bold {
+        @apply font-inter text-sm font-bold leading-[1.5]
+    }
+
+    .bg-gradient-1 {
+        background: #ffffff;
+        background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(214, 252, 254, 0.5) 50%,
+        rgba(214, 230, 254, 1) 100%
+  )}
+}
+
+@layer utilities {
+    .no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield; /* Firefox */
+}
+}
